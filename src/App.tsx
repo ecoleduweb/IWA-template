@@ -1,9 +1,11 @@
-import './style/App.css'
+import './style/App.scss'
+import reactLogo from './assets/react.svg'
 
-function App() {
+const App = () => {
   return (
     <>
-      Voici le template de base
+    <img src={reactLogo} alt="logo react" />
+    <h1>Template de base</h1>
     </>
   )
 }
