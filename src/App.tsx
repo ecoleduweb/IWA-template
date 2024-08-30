@@ -1,11 +1,9 @@
 import './style/App.scss'
-import reactLogo from './assets/react.svg'
-
+import TheHeader from './component/TheHeader'
 const App = () => {
   return (
     <>
-    <img src={reactLogo} alt="logo react" />
-    <h1>Template de base</h1>
+    <TheHeader/>
     </>
   )
 }
