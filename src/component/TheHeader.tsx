@@ -7,7 +7,9 @@ const TheHeader = () => {
     <header>
         <h1>Mon header et mes boutons</h1>
         <AButton />
-        <AButton />
+        <div className="class1">
+          <AButton />
+        </div>
     </header>
     </>
   )
